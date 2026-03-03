@@ -2,3 +2,7 @@
 <!-- Section 2026-03-03T11:30:20 +0500 -->
 ### Sliding Window & Two Pointers
 - O(N) array processing patterns with dynamic and fixed window boundaries.
+
+<!-- Section 2026-03-03T16:45:10 +0500 -->
+### Binary Search Variations
+- Left-bound and right-bound search implementations with edge-case handling.
