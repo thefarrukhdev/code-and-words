@@ -6,3 +6,7 @@
 <!-- Section 2026-03-03T16:45:10 +0500 -->
 ### Binary Search Variations
 - Left-bound and right-bound search implementations with edge-case handling.
+
+<!-- Section 2026-03-10T14:15:35 +0500 -->
+### Dynamic Programming (0/1 Knapsack)
+- State definition, recurrence relations, and space optimization techniques.
