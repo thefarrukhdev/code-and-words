@@ -14,3 +14,7 @@
 <!-- Section 2026-03-17T10:20:44 +0500 -->
 ### Graph Traversal & Topological Sort
 - Kahn's algorithm using in-degree array and DFS-based cycle detection.
+
+<!-- Section 2026-03-17T17:35:12 +0500 -->
+### Tree Balancing Mechanics
+- Single and double rotation rules for self-balancing search trees.
