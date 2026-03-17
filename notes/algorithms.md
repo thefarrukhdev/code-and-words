@@ -10,3 +10,7 @@
 <!-- Section 2026-03-10T14:15:35 +0500 -->
 ### Dynamic Programming (0/1 Knapsack)
 - State definition, recurrence relations, and space optimization techniques.
+
+<!-- Section 2026-03-17T10:20:44 +0500 -->
+### Graph Traversal & Topological Sort
+- Kahn's algorithm using in-degree array and DFS-based cycle detection.
