@@ -18,3 +18,7 @@
 <!-- Section 2026-03-17T17:35:12 +0500 -->
 ### Tree Balancing Mechanics
 - Single and double rotation rules for self-balancing search trees.
+
+<!-- Section 2026-03-31T15:50:28 +0500 -->
+### Trie Data Structure
+- Space-efficient prefix tree for autocomplete search queries.
