@@ -105,7 +105,7 @@ def main():
 
     print("\n\n          ... umr o'tmoqda ...")
     time.sleep(1.5)
-    print("\n                                       [ farrukh.dev ]\n")
+    print("\n                         [ farrukh.dev ]\n")
 
     player.wait()
 
