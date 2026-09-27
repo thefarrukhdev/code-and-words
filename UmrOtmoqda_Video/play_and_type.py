@@ -65,6 +65,20 @@ lyrics = [
 ]
 
 def main():
+    delay_seconds = 0
+    if len(sys.argv) > 1:
+        try:
+            delay_seconds = int(sys.argv[1])
+        except ValueError:
+            pass
+
+    if delay_seconds > 0:
+        clear_screen()
+        for i in range(delay_seconds, 0, -1):
+            sys.stdout.write(f"\r[ Kamera uchun tayyorgarlik: {i} soniya qoldi... ]")
+            sys.stdout.flush()
+            time.sleep(1)
+
     clear_screen()
     print("\n" * 5)
     
