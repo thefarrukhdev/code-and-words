@@ -40,7 +40,7 @@ lyrics = [
     ("Bolalik qaytadan qaytarilmoqda.", 0.081, 0.500),
     ("Bizdan erta kunga nelar qolmoqda?", 0.076, 0.500),
     ("Umr o'tmoqdadir...", 0.083, 0.500),
-    ("Daryo misoli.", 0.154, 4.000)
+    ("Daryo misoli.", 0.154, 1.000)
 ]
 
 def main():
@@ -68,10 +68,11 @@ def main():
         sys.stdout.write(" " * 10)
         start_time_ref = type_text(line, char_delay, nl_delay, start_time_ref)
 
-    player.wait()
     print("\n\n          ... umr o'tmoqda ...")
-    time.sleep(1.0)
+    time.sleep(1.5)
     print("\n                                       [ farrukh.dev ]\n")
+
+    player.wait()
 
 if __name__ == "__main__":
     main()
