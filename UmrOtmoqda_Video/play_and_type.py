@@ -10,15 +10,36 @@ def type_text(text, delay=0.08, newline_delay=1.0, start_time_ref=None):
     if start_time_ref is None:
         start_time_ref = time.time()
         
+    duration = len(text) * delay
+    
+    # Calculate natural typing weights
+    weights = []
+    prev_char = ''
+    for char in text:
+        if char in [',', ';']:
+            weights.append(4.0)
+        elif char in ['.', '?', '!']:
+            weights.append(2.0 if prev_char == '.' else 6.0)
+        elif char == ' ':
+            weights.append(1.5)
+        else:
+            weights.append(1.0)
+        prev_char = char
+        
+    total_weight = sum(weights) if weights else 1.0
+    cumulative_weight = 0
+        
     for i, char in enumerate(text):
-        target = start_time_ref + i * delay
+        target = start_time_ref + (cumulative_weight / total_weight) * duration
         now = time.time()
         if target > now:
             time.sleep(target - now)
+            
         sys.stdout.write(char)
         sys.stdout.flush()
+        cumulative_weight += weights[i]
         
-    target_nl = start_time_ref + len(text) * delay + newline_delay
+    target_nl = start_time_ref + duration + newline_delay
     now = time.time()
     if target_nl > now:
         time.sleep(target_nl - now)
