@@ -71,7 +71,7 @@ def main():
     print("\n" * 5)
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    mp3_path = os.path.join(script_dir, "tashlab-ketgan-joydaman.mp3")
+    mp3_path = os.path.join(script_dir, "audio.mp3")
 
     if not os.path.exists(mp3_path):
         print(f"Xatolik: Audio fayl topilmadi: {mp3_path}")
