@@ -84,7 +84,9 @@ def main():
     
     # Absolute path to mp3
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    mp3_path = os.path.join(script_dir, "umr-o'tmoqda.mp3")
+    mp3_path = os.path.join(script_dir, "umr-otmoqda.mp3")
+    if not os.path.exists(mp3_path):
+        mp3_path = os.path.join(script_dir, "umr-o'tmoqda.mp3")
 
     try:
         player = subprocess.Popen(['mpv', '--no-video', mp3_path], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
@@ -105,7 +107,7 @@ def main():
 
     print("\n\n          ... umr o'tmoqda ...")
     time.sleep(1.5)
-    print("\n                         [ farrukh.dev ]\n")
+    print("\n                         <farrukh.dev/>\n")
 
     player.wait()
 
