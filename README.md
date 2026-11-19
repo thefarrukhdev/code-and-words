@@ -7,8 +7,8 @@ This repository serves as a personal diary and a creative canvas, blending progr
 ## Projects
 
 * **`umr-otmoqda`** — A beautifully timed terminal typing effect synchronized with audio, illustrating the fleeting nature of time like a flowing river.
-* **`the-only-way-to-get-there`** — A motivational terminal typing experience precisely synchronized to voice and rhythm, capturing the mindset of relentless action ("It's the only way to get there").
-* **`tashlab-ketgan-joydaman`** — A poignant, emotionally resonant terminal poem synchronized with voice and music, reflecting on longing, struggle, and steadfast loyalty ("Tashlab ketgan joydaman").
+* **`only-way`** — A motivational terminal typing experience precisely synchronized to voice and rhythm, capturing the mindset of relentless action ("It's the only way to get there").
+* **`tashlab-ketgan-joy`** — A poignant, emotionally resonant terminal poem synchronized with voice and music, reflecting on longing, struggle, and steadfast loyalty ("Tashlab ketgan joydaman").
 * **`boglanib-qolma`** — A deeply reflective terminal poem synchronized with voice and soulful melody, about detachment, human nature, and resilience ("Bog'lanib qolma hech inson zotiga").
 * **`aldagan-emas`** — A thought-provoking terminal reflection synchronized with voice, pondering honesty, conscience, and inner peace ("Aldagan emas, aldalgan bo'lish ancha yaxshiroq").
 * **`sen-ham-xohlaysan`** — A spiritual and deeply moving Hadith Qudsi recital by Abdulloh domla, reflecting on surrender to the Divine will, trust, and peace ("Sen ham xohlaysan, Men ham xohlayman").
