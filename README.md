@@ -11,6 +11,21 @@ This repository serves as a personal diary and a creative canvas, blending progr
 * **`tashlab-ketgan-joydaman`** — A poignant, emotionally resonant terminal poem synchronized with voice and music, reflecting on longing, struggle, and steadfast loyalty ("Tashlab ketgan joydaman").
 * **`if-you-dont-fail`** — An electrifying terminal typing performance synchronized to Denzel Washington's legendary words on risk, failure, and growth ("If you don't fail, you're not even trying").
 
+## Prerequisites
+
+The scripts use Python 3 and rely on a lightweight CLI audio player (either `mpv` or `ffplay` from `ffmpeg`):
+
+```bash
+# Ubuntu / Debian
+sudo apt install mpv
+
+# Arch Linux
+sudo pacman -S mpv
+
+# macOS
+brew install mpv
+```
+
 ## How to Run
 
 Navigate into any project folder and execute `main.py`:
