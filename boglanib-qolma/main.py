@@ -55,7 +55,7 @@ lyrics = [
     (16.00, "Bog'lanib qolma hech odam zotiga,", 18.90),
     (19.50, "Arqoning tugilsa yechila olmaysan.", 22.80),
     (23.40, "Bir kun ketib qolsa umrbotiga,", 26.80),
-    (27.60, "U kuya mayli,", 29.50),
+    (27.60, "U kuyar mayli,", 29.50),
     (29.80, "O'zingni kechirolmaysan...", 34.00),
 ]
 
