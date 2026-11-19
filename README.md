@@ -11,6 +11,7 @@ This repository serves as a personal diary and a creative canvas, blending progr
 * **`tashlab-ketgan-joydaman`** — A poignant, emotionally resonant terminal poem synchronized with voice and music, reflecting on longing, struggle, and steadfast loyalty ("Tashlab ketgan joydaman").
 * **`boglanib-qolma`** — A deeply reflective terminal poem synchronized with voice and soulful melody, about detachment, human nature, and resilience ("Bog'lanib qolma hech inson zotiga").
 * **`aldagan-emas`** — A thought-provoking terminal reflection synchronized with voice, pondering honesty, conscience, and inner peace ("Aldagan emas, aldalgan bo'lish ancha yaxshiroq").
+* **`sen-ham-xohlaysan`** — A spiritual and deeply moving Hadith Qudsi recital by Abdulloh domla, reflecting on surrender to the Divine will, trust, and peace ("Sen ham xohlaysan, Men ham xohlayman").
 * **`if-you-dont-fail`** — An electrifying terminal typing performance synchronized to Denzel Washington's legendary words on risk, failure, and growth ("If you don't fail, you're not even trying").
 
 ## Prerequisites
