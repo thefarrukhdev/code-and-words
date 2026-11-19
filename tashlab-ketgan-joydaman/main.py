@@ -111,7 +111,7 @@ def main():
     if signature_target > now:
         time.sleep(signature_target - now)
 
-    print("\n\n                         <farrukh.dev/>\n")
+    print("\n\n                         <the.farrukh.dev/>\n")
 
     player.wait()
 

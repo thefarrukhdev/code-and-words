@@ -42,4 +42,4 @@ python3 main.py 5
 ```
 
 ---
-Created by `<farrukh.dev/>`
+Created by `<the.farrukh.dev/>`

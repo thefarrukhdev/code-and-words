@@ -142,7 +142,7 @@ def main():
     if signature_target > now:
         time.sleep(signature_target - now)
 
-    print(f"\n\n                         {DIM}<farrukh.dev/>{RESET}\n")
+    print(f"\n\n                         {DIM}<the.farrukh.dev/>{RESET}\n")
 
     player.wait()
 

@@ -109,7 +109,7 @@ def main():
 
     # Musiqa avjiga chiqqanda chiqadigan mualliflik imzosi
     time.sleep(1.0)
-    print("\n\n                         <farrukh.dev/>\n")
+    print("\n\n                         <the.farrukh.dev/>\n")
 
     player.wait()
 
